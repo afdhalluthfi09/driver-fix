@@ -3,11 +3,12 @@
 </template>
 
 <script>
-import {messaging} from './firebaseConfig'
-import {admin} from './adminFirebaseConfig'
+import {messaging} from '@/firebaseConfig'
+import {admin} from '@/adminFirebaseConfig'
 export default {
   created(){ 
     messaging
+    this.sendNotifikasi()
   },
   data(){
     return{}
