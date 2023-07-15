@@ -3,8 +3,9 @@
 </template>
 
 <script>
+import {messaging} from './firebaseConfig'
 export default {
-  created(){},
+  created(){ messaging},
   data(){
     return{}
   }
